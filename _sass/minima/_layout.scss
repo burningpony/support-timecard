@@ -211,6 +211,11 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
+    h2,h3,h4 {
+        border-bottom: 1px solid $grey-color-light;
+        padding: 20px 0 5px 0;
+    }
+
     h2 {
         font-size: 32px;
 
@@ -234,4 +239,10 @@
             font-size: 18px;
         }
     }
+    table {
+        width:100%;
+        // border
+    }
 }
+
+
